@@ -269,7 +269,7 @@ export default function HybridBotsPage() {
       
       {/* Floating Version Badge at Top-Left */}
       <div className="fixed top-3 left-3 z-[9999] px-2.5 py-1 bg-slate-900/90 border border-cyan-500/30 rounded-lg text-xs font-bold text-cyan-400 backdrop-blur-md shadow-lg pointer-events-none select-none">
-        v4.1
+        v4.2
       </div>
 
       {/* Background Glow */}
@@ -287,7 +287,7 @@ export default function HybridBotsPage() {
                 <Zap className="text-cyan-400" size={28} />
                 Hibrit Radar & Sinyal Motoru
               </h1>
-              <p className="text-slate-400 text-sm mt-1 font-medium">XGBoost Uzman Karar Ağaçları Kontrol Paneli v4.1</p>
+              <p className="text-slate-400 text-sm mt-1 font-medium">XGBoost Uzman Karar Ağaçları Kontrol Paneli v4.2</p>
             </div>
           </div>
           

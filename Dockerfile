@@ -15,7 +15,8 @@ RUN pip install --no-cache-dir \
     pandas \
     numpy \
     xgboost \
-    pandas-ta
+    pandas-ta \
+    scikit-learn
 
 # Copy package configuration files
 COPY package.json package-lock.json ./
