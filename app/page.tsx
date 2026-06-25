@@ -273,7 +273,7 @@ export default function HybridBotsPage() {
       
       {/* Floating Version Badge at Top-Left */}
       <div className="fixed top-3 left-3 z-[9999] px-2.5 py-1 bg-slate-900/90 border border-cyan-500/30 rounded-lg text-xs font-bold text-cyan-400 backdrop-blur-md shadow-lg pointer-events-none select-none">
-        v4.3
+        v4.4
       </div>
 
       {/* Background Glow */}
