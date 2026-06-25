@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Zap, BrainCircuit, Activity, ShieldCheck, Server, AlertCircle, Trash2, ChevronDown, ChevronUp, Terminal, Settings as SettingsIcon } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -51,6 +51,10 @@ export default function HybridBotsPage() {
   const [systemLogs, setSystemLogs] = useState<any[]>([]);
 
   const [showSettingsModal, setShowSettingsModal] = useState(false);
+  const showSettingsModalRef = useRef(showSettingsModal);
+  useEffect(() => {
+    showSettingsModalRef.current = showSettingsModal;
+  }, [showSettingsModal]);
   const [settings, setSettings] = useState({
     capital: 10000,
     maxConcurrent: 5,
@@ -232,7 +236,7 @@ export default function HybridBotsPage() {
           if (data.systemLogs) {
             setSystemLogs(data.systemLogs);
           }
-          if (data.settings && !showSettingsModal) {
+          if (data.settings && !showSettingsModalRef.current) {
             setSettings({
               capital: data.settings.capital ?? 10000,
               maxConcurrent: data.settings.maxConcurrent ?? 5,
@@ -269,7 +273,7 @@ export default function HybridBotsPage() {
       
       {/* Floating Version Badge at Top-Left */}
       <div className="fixed top-3 left-3 z-[9999] px-2.5 py-1 bg-slate-900/90 border border-cyan-500/30 rounded-lg text-xs font-bold text-cyan-400 backdrop-blur-md shadow-lg pointer-events-none select-none">
-        v4.2
+        v4.3
       </div>
 
       {/* Background Glow */}
@@ -287,7 +291,7 @@ export default function HybridBotsPage() {
                 <Zap className="text-cyan-400" size={28} />
                 Hibrit Radar & Sinyal Motoru
               </h1>
-              <p className="text-slate-400 text-sm mt-1 font-medium">XGBoost Uzman Karar Ağaçları Kontrol Paneli v4.2</p>
+              <p className="text-slate-400 text-sm mt-1 font-medium">XGBoost Uzman Karar Ağaçları Kontrol Paneli v4.3</p>
             </div>
           </div>
           
