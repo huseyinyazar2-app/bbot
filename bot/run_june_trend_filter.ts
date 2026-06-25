@@ -1,4 +1,4 @@
-import { fetchHistoricalKlines, Kline } from 'c:/Users/hyaza/Documents/antigravitiy/borsabotu/bot/binance';
+import { fetchHistoricalKlines, Kline } from './binance';
 import { ADX, EMA, RSI, BollingerBands, SMA } from 'technicalindicators';
 
 // Local indicator calculation with EMA200

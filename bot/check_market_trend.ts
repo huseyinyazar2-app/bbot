@@ -1,4 +1,4 @@
-import { fetchHistoricalKlines } from 'c:/Users/hyaza/Documents/antigravitiy/borsabotu/bot/binance';
+import { fetchHistoricalKlines } from './binance';
 
 async function checkTrend() {
   const symbols = [
