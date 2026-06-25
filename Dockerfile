@@ -1,5 +1,5 @@
 # Multi-process Node/Python environment for Hybrid Bot
-FROM nikolaik/python-nodejs:python3.11-nodejs20-slim
+FROM nikolaik/python-nodejs:python3.12-nodejs20-slim
 
 WORKDIR /app
 
