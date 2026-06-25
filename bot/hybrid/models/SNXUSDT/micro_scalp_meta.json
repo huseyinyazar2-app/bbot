@@ -1,0 +1,30 @@
+{
+    "symbol": "SNXUSDT",
+    "tier": "micro_scalp",
+    "trained_at": "2026-06-24T17:59:59.252639",
+    "total_samples": 111505,
+    "positive_labels": 24275,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "VWAP_ratio",
+        "EMA200_ratio",
+        "Vol_Ratio",
+        "CMF",
+        "BBB_20_2.0_2.0",
+        "DayOfWeek",
+        "DMP_14",
+        "BTC_Corr_50",
+        "CCI",
+        "CVD_Slope_5",
+        "Price_Position_50",
+        "SMA20_ratio",
+        "DMN_14",
+        "OBV_slope_5",
+        "Supertrend_ratio"
+    ],
+    "optimal_threshold": 0.7862644791603088,
+    "target_pct": 1.0,
+    "max_hold_bars": 9,
+    "atr_sl_multiplier": 1.25
+}

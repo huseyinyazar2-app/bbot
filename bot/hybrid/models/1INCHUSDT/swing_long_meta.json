@@ -1,0 +1,32 @@
+{
+    "symbol": "1INCHUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T16:34:36.775864",
+    "total_samples": 111229,
+    "positive_labels": 7904,
+    "selected_features": [
+        "ATR_pct",
+        "DayOfWeek",
+        "Hour",
+        "ADXR_14_2",
+        "VWAP_ratio",
+        "MACDs_12_26_9_ratio",
+        "DMN_14",
+        "Price_Position_50",
+        "MFI",
+        "BBB_20_2.0_2.0",
+        "ADX_14",
+        "SMA50_ratio",
+        "EMA100_ratio",
+        "Spread_KC_BB",
+        "RSI21",
+        "RSI7",
+        "CCI",
+        "MACD_12_26_9_ratio",
+        "BBP_20_2.0_2.0"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

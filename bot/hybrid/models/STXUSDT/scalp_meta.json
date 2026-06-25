@@ -1,0 +1,25 @@
+{
+    "symbol": "STXUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T18:05:37.093269",
+    "total_samples": 111498,
+    "positive_labels": 26128,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "Hour",
+        "BBB_20_2.0_2.0",
+        "DayOfWeek",
+        "Vol_Ratio",
+        "Price_Position_50",
+        "EMA100_ratio",
+        "CCI",
+        "MFI",
+        "STDEV_pct",
+        "SMA50_ratio"
+    ],
+    "optimal_threshold": 0.7108028531074524,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

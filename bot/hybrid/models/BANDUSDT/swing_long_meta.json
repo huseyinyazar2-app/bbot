@@ -1,0 +1,23 @@
+{
+    "symbol": "BANDUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T16:55:30.231040",
+    "total_samples": 111232,
+    "positive_labels": 7351,
+    "selected_features": [
+        "ATR_pct",
+        "EMA100_ratio",
+        "Price_Position_50",
+        "Hour",
+        "MACDs_12_26_9_ratio",
+        "CCI",
+        "DMN_14",
+        "ADX_14",
+        "CMF",
+        "SMA50_ratio"
+    ],
+    "optimal_threshold": 0.7490779757499695,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

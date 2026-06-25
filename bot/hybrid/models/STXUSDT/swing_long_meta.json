@@ -1,0 +1,19 @@
+{
+    "symbol": "STXUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T18:06:54.350984",
+    "total_samples": 111234,
+    "positive_labels": 9028,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "VWAP_ratio",
+        "CVD_Slope_5",
+        "STDEV_pct",
+        "MACDs_12_26_9_ratio"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

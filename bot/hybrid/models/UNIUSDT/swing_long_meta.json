@@ -1,0 +1,27 @@
+{
+    "symbol": "UNIUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T18:11:57.146010",
+    "total_samples": 111224,
+    "positive_labels": 11454,
+    "selected_features": [
+        "ATR_pct",
+        "DMN_14",
+        "STDEV_pct",
+        "Hour",
+        "RSI14",
+        "CCI",
+        "CMF",
+        "ADX_14",
+        "WILLR",
+        "Price_Position_50",
+        "MACD_12_26_9_ratio",
+        "BBB_20_2.0_2.0",
+        "BTC_Corr_50",
+        "ADXR_14_2"
+    ],
+    "optimal_threshold": 0.5188931226730347,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

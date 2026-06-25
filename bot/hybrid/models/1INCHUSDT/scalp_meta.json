@@ -1,0 +1,25 @@
+{
+    "symbol": "1INCHUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T16:32:54.514441",
+    "total_samples": 111493,
+    "positive_labels": 23592,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "DayOfWeek",
+        "EMA100_ratio",
+        "Vol_Ratio",
+        "BTC_Ret_5",
+        "BBP_20_2.0_2.0",
+        "CCI",
+        "Spread_KC_BB",
+        "WILLR",
+        "MACD_12_26_9_ratio",
+        "Supertrend_ratio"
+    ],
+    "optimal_threshold": 0.5423054099082947,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

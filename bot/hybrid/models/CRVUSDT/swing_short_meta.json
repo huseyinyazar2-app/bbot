@@ -1,0 +1,27 @@
+{
+    "symbol": "CRVUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T17:11:25.788207",
+    "total_samples": 111468,
+    "positive_labels": 20896,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "DayOfWeek",
+        "EMA200_ratio",
+        "ADXR_14_2",
+        "CMF",
+        "Vol_Ratio",
+        "DMP_14",
+        "BTC_Corr_50",
+        "EMA100_ratio",
+        "WILLR",
+        "MFI",
+        "STOCHd_14_3_3",
+        "STDEV_pct"
+    ],
+    "optimal_threshold": 0.663708508014679,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

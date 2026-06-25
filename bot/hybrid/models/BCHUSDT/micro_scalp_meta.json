@@ -1,0 +1,29 @@
+{
+    "symbol": "BCHUSDT",
+    "tier": "micro_scalp",
+    "trained_at": "2026-06-24T16:58:15.915944",
+    "total_samples": 111502,
+    "positive_labels": 9811,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "STDEV_pct",
+        "CCI",
+        "DayOfWeek",
+        "Hour",
+        "Vol_Ratio",
+        "STOCHk_14_3_3",
+        "BBB_20_2.0_2.0",
+        "ROC_15",
+        "SMA20_ratio",
+        "Spread_KC_BB",
+        "ADXR_14_2",
+        "WILLR",
+        "SMA50_ratio",
+        "RSI14"
+    ],
+    "optimal_threshold": 0.6009352803230286,
+    "target_pct": 1.0,
+    "max_hold_bars": 9,
+    "atr_sl_multiplier": 1.25
+}

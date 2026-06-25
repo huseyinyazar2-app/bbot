@@ -1,0 +1,30 @@
+{
+    "symbol": "CHZUSDT",
+    "tier": "swing_mid",
+    "trained_at": "2026-06-24T17:07:08.496780",
+    "total_samples": 111420,
+    "positive_labels": 7183,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "EMA100_ratio",
+        "Supertrend_ratio",
+        "Hour",
+        "BTC_Corr_50",
+        "DMN_14",
+        "CCI",
+        "MFI",
+        "STDEV_pct",
+        "MACDh_12_26_9_ratio",
+        "MACD_12_26_9_ratio",
+        "BBB_20_2.0_2.0",
+        "EMA50_ratio",
+        "CVD_Slope_5",
+        "MACDs_12_26_9_ratio",
+        "Price_Position_50"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 5.0,
+    "max_hold_bars": 96,
+    "atr_sl_multiplier": 2.5
+}

@@ -1,0 +1,24 @@
+{
+    "symbol": "SOLUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T18:02:08.661314",
+    "total_samples": 111486,
+    "positive_labels": 19872,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "DayOfWeek",
+        "BBB_20_2.0_2.0",
+        "BTC_Corr_50",
+        "Price_Position_50",
+        "CMF",
+        "Vol_Ratio",
+        "OBV_slope_5",
+        "ADXR_14_2",
+        "MACDs_12_26_9_ratio"
+    ],
+    "optimal_threshold": 0.5695747137069702,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

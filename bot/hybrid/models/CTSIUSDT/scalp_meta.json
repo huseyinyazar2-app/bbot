@@ -1,0 +1,29 @@
+{
+    "symbol": "CTSIUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T17:13:29.857906",
+    "total_samples": 111496,
+    "positive_labels": 32821,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "STDEV_pct",
+        "Hour",
+        "DayOfWeek",
+        "DMP_14",
+        "Vol_Ratio",
+        "SMA50_ratio",
+        "EMA100_ratio",
+        "BBB_20_2.0_2.0",
+        "VWAP_ratio",
+        "MACD_12_26_9_ratio",
+        "DMN_14",
+        "BBP_20_2.0_2.0",
+        "MACDh_12_26_9_ratio",
+        "CCI"
+    ],
+    "optimal_threshold": 0.6459798812866211,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

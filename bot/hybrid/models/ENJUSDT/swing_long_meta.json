@@ -1,0 +1,24 @@
+{
+    "symbol": "ENJUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T17:28:56.589894",
+    "total_samples": 111229,
+    "positive_labels": 12285,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "BTC_Corr_50",
+        "VWAP_ratio",
+        "DMN_14",
+        "CMF",
+        "MACDh_12_26_9_ratio",
+        "BBB_20_2.0_2.0",
+        "ADX_14",
+        "EMA50_ratio",
+        "DMP_14"
+    ],
+    "optimal_threshold": 0.7611297965049744,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

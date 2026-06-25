@@ -1,0 +1,27 @@
+{
+    "symbol": "STORJUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T18:03:58.620364",
+    "total_samples": 111470,
+    "positive_labels": 12228,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "ADXR_14_2",
+        "EMA200_ratio",
+        "CMF",
+        "DMN_14",
+        "BBB_20_2.0_2.0",
+        "STOCHd_14_3_3",
+        "MACDh_12_26_9_ratio",
+        "MFI",
+        "CCI",
+        "SMA20_ratio",
+        "STOCHk_14_3_3",
+        "ADX_14"
+    ],
+    "optimal_threshold": 0.7970762252807617,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

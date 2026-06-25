@@ -1,0 +1,26 @@
+{
+    "symbol": "KNCUSDT",
+    "tier": "swing_mid",
+    "trained_at": "2026-06-24T17:43:52.760217",
+    "total_samples": 111423,
+    "positive_labels": 5096,
+    "selected_features": [
+        "ATR_pct",
+        "VWAP_ratio",
+        "EMA200_ratio",
+        "Hour",
+        "Supertrend_ratio",
+        "SMA50_ratio",
+        "ADXR_14_2",
+        "ADX_14",
+        "EMA100_ratio",
+        "MACDs_12_26_9_ratio",
+        "CVD_Slope_5",
+        "Price_Position_50",
+        "RSI21"
+    ],
+    "optimal_threshold": 0.5870277881622314,
+    "target_pct": 5.0,
+    "max_hold_bars": 96,
+    "atr_sl_multiplier": 2.5
+}

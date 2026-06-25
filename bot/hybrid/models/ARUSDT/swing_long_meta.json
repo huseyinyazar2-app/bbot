@@ -1,0 +1,28 @@
+{
+    "symbol": "ARUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T16:44:26.517993",
+    "total_samples": 111235,
+    "positive_labels": 15010,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "BTC_Corr_50",
+        "VWAP_ratio",
+        "EMA100_ratio",
+        "CVD_Slope_5",
+        "DayOfWeek",
+        "BBB_20_2.0_2.0",
+        "CCI",
+        "ADXR_14_2",
+        "MACDs_12_26_9_ratio",
+        "BTC_Ret_5",
+        "EMA50_ratio",
+        "MFI",
+        "MACD_12_26_9_ratio"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

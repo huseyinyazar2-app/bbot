@@ -1,0 +1,28 @@
+{
+    "symbol": "SANDUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T17:58:15.659661",
+    "total_samples": 111490,
+    "positive_labels": 24735,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "ADXR_14_2",
+        "Hour",
+        "STDEV_pct",
+        "BBB_20_2.0_2.0",
+        "CCI",
+        "Price_Position_50",
+        "BTC_Ret_5",
+        "CVD_Slope_5",
+        "Supertrend_ratio",
+        "Vol_Ratio",
+        "RSI21",
+        "DayOfWeek",
+        "EMA21_ratio"
+    ],
+    "optimal_threshold": 0.5459612011909485,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

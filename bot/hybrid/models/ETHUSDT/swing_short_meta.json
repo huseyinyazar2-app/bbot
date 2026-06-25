@@ -1,0 +1,33 @@
+{
+    "symbol": "ETHUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T17:30:06.997384",
+    "total_samples": 111462,
+    "positive_labels": 7796,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "BTC_Corr_50",
+        "Price_Position_50",
+        "EMA200_ratio",
+        "Vol_Ratio",
+        "STDEV_pct",
+        "ADXR_14_2",
+        "SMA20_ratio",
+        "DayOfWeek",
+        "EMA100_ratio",
+        "DMN_14",
+        "RSI21",
+        "BBB_20_2.0_2.0",
+        "WILLR",
+        "Supertrend_ratio",
+        "BTC_Ret_5",
+        "MFI",
+        "MACDh_12_26_9_ratio",
+        "KC_position"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

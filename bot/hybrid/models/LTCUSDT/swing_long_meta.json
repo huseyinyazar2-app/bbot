@@ -1,0 +1,23 @@
+{
+    "symbol": "LTCUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T17:50:14.228446",
+    "total_samples": 111223,
+    "positive_labels": 3861,
+    "selected_features": [
+        "ATR_pct",
+        "DayOfWeek",
+        "Hour",
+        "BBB_20_2.0_2.0",
+        "STDEV_pct",
+        "EMA100_ratio",
+        "DMP_14",
+        "Price_Position_50",
+        "ADX_14",
+        "Supertrend_ratio"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

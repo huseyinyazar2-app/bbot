@@ -1,0 +1,26 @@
+{
+    "symbol": "ADAUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T16:39:58.833082",
+    "total_samples": 111222,
+    "positive_labels": 6527,
+    "selected_features": [
+        "EMA200_ratio",
+        "SMA50_ratio",
+        "VWAP_ratio",
+        "ATR_pct",
+        "EMA100_ratio",
+        "MFI",
+        "ADXR_14_2",
+        "STOCHd_14_3_3",
+        "DMN_14",
+        "MACDs_12_26_9_ratio",
+        "Hour",
+        "Spread_KC_BB",
+        "Price_Position_50"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

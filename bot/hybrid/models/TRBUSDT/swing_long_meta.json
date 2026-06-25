@@ -1,0 +1,29 @@
+{
+    "symbol": "TRBUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T18:10:04.192888",
+    "total_samples": 111234,
+    "positive_labels": 9489,
+    "selected_features": [
+        "ATR_pct",
+        "DayOfWeek",
+        "Hour",
+        "VWAP_ratio",
+        "BTC_Corr_50",
+        "STDEV_pct",
+        "BBB_20_2.0_2.0",
+        "CVD_Slope_5",
+        "Spread_KC_BB",
+        "MACD_12_26_9_ratio",
+        "Vol_Ratio",
+        "Price_Position_50",
+        "ADXR_14_2",
+        "RSI14",
+        "DMN_14",
+        "DMP_14"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

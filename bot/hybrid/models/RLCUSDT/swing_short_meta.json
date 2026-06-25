@@ -1,0 +1,28 @@
+{
+    "symbol": "RLCUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T17:55:29.150250",
+    "total_samples": 111472,
+    "positive_labels": 15966,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "STDEV_pct",
+        "EMA200_ratio",
+        "Supertrend_ratio",
+        "DayOfWeek",
+        "SMA50_ratio",
+        "RSI21",
+        "Price_Position_50",
+        "CMF",
+        "CCI",
+        "RSI14",
+        "BTC_Ret_5",
+        "EMA100_ratio",
+        "KC_position"
+    ],
+    "optimal_threshold": 0.5539112687110901,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

@@ -1,0 +1,30 @@
+{
+    "symbol": "GALAUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T17:35:40.153962",
+    "total_samples": 111467,
+    "positive_labels": 17150,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "EMA200_ratio",
+        "DayOfWeek",
+        "EMA100_ratio",
+        "Vol_Ratio",
+        "MACDs_12_26_9_ratio",
+        "CMF",
+        "Supertrend_ratio",
+        "BBP_20_2.0_2.0",
+        "DMP_14",
+        "MFI",
+        "EMA9_ratio",
+        "STOCHk_14_3_3",
+        "Price_Position_50",
+        "DMN_14",
+        "SMA50_ratio"
+    ],
+    "optimal_threshold": 0.6475083827972412,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

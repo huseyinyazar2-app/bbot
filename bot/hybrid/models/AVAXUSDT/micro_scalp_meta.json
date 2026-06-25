@@ -1,0 +1,33 @@
+{
+    "symbol": "AVAXUSDT",
+    "tier": "micro_scalp",
+    "trained_at": "2026-06-24T16:48:56.959636",
+    "total_samples": 111501,
+    "positive_labels": 13300,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "Vol_Ratio",
+        "DayOfWeek",
+        "Price_Position_50",
+        "DMN_14",
+        "EMA200_ratio",
+        "BBB_20_2.0_2.0",
+        "EMA50_ratio",
+        "EMA100_ratio",
+        "ADXR_14_2",
+        "SMA20_ratio",
+        "CCI",
+        "STDEV_pct",
+        "MACDs_12_26_9_ratio",
+        "CVD_Slope_5",
+        "STOCHk_14_3_3",
+        "DMP_14",
+        "EMA21_ratio",
+        "RSI14"
+    ],
+    "optimal_threshold": 0.8038429617881775,
+    "target_pct": 1.0,
+    "max_hold_bars": 9,
+    "atr_sl_multiplier": 1.25
+}

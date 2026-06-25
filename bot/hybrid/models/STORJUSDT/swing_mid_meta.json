@@ -1,0 +1,24 @@
+{
+    "symbol": "STORJUSDT",
+    "tier": "swing_mid",
+    "trained_at": "2026-06-24T18:04:25.091037",
+    "total_samples": 111422,
+    "positive_labels": 5099,
+    "selected_features": [
+        "ATR_pct",
+        "Price_Position_50",
+        "CMF",
+        "Hour",
+        "STDEV_pct",
+        "DMN_14",
+        "BTC_Corr_50",
+        "BTC_Ret_5",
+        "EMA200_ratio",
+        "Spread_KC_BB",
+        "CVD_Slope_5"
+    ],
+    "optimal_threshold": 0.7557175755500793,
+    "target_pct": 5.0,
+    "max_hold_bars": 96,
+    "atr_sl_multiplier": 2.5
+}

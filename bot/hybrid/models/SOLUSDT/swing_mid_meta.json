@@ -1,0 +1,22 @@
+{
+    "symbol": "SOLUSDT",
+    "tier": "swing_mid",
+    "trained_at": "2026-06-24T18:02:33.020704",
+    "total_samples": 111414,
+    "positive_labels": 3900,
+    "selected_features": [
+        "Hour",
+        "ATR_pct",
+        "EMA200_ratio",
+        "BTC_Corr_50",
+        "Vol_Ratio",
+        "Supertrend_ratio",
+        "DayOfWeek",
+        "DMN_14",
+        "CCI"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 5.0,
+    "max_hold_bars": 96,
+    "atr_sl_multiplier": 2.5
+}

@@ -1,0 +1,22 @@
+{
+    "symbol": "ARUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T16:42:56.049357",
+    "total_samples": 111499,
+    "positive_labels": 36041,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "EMA200_ratio",
+        "VWAP_ratio",
+        "DayOfWeek",
+        "Supertrend_ratio",
+        "BTC_Ret_5",
+        "BTC_Corr_50",
+        "DMN_14"
+    ],
+    "optimal_threshold": 0.5807251334190369,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

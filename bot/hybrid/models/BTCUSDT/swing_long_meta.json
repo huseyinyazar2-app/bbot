@@ -1,0 +1,21 @@
+{
+    "symbol": "BTCUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T17:04:31.995629",
+    "total_samples": 111221,
+    "positive_labels": 553,
+    "selected_features": [
+        "EMA100_ratio",
+        "EMA200_ratio",
+        "DayOfWeek",
+        "STDEV_pct",
+        "MACDs_12_26_9_ratio",
+        "MACDh_12_26_9_ratio",
+        "ADXR_14_2",
+        "ATR_pct"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

@@ -1,0 +1,32 @@
+{
+    "symbol": "XRPUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T18:12:27.898442",
+    "total_samples": 111486,
+    "positive_labels": 16178,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "EMA200_ratio",
+        "DayOfWeek",
+        "VWAP_ratio",
+        "EMA9_ratio",
+        "DMN_14",
+        "BBP_20_2.0_2.0",
+        "EMA100_ratio",
+        "BBB_20_2.0_2.0",
+        "Vol_Ratio",
+        "ADXR_14_2",
+        "Spread_KC_BB",
+        "CCI",
+        "BTC_Ret_5",
+        "ADX_14",
+        "MFI",
+        "SMA50_ratio",
+        "DMP_14"
+    ],
+    "optimal_threshold": 0.8153480887413025,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

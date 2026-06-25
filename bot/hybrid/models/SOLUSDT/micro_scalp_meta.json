@@ -1,0 +1,33 @@
+{
+    "symbol": "SOLUSDT",
+    "tier": "micro_scalp",
+    "trained_at": "2026-06-24T18:01:58.885666",
+    "total_samples": 111501,
+    "positive_labels": 11616,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "BBB_20_2.0_2.0",
+        "Vol_Ratio",
+        "EMA200_ratio",
+        "Supertrend_ratio",
+        "STDEV_pct",
+        "Volume_Slope_5",
+        "BTC_Corr_50",
+        "MACD_12_26_9_ratio",
+        "ADXR_14_2",
+        "CVD_Slope_5",
+        "RSI14",
+        "CMF",
+        "WILLR",
+        "CCI",
+        "RSI21",
+        "DayOfWeek",
+        "BTC_Ret_5",
+        "MACDs_12_26_9_ratio"
+    ],
+    "optimal_threshold": 0.7774441838264465,
+    "target_pct": 1.0,
+    "max_hold_bars": 9,
+    "atr_sl_multiplier": 1.25
+}

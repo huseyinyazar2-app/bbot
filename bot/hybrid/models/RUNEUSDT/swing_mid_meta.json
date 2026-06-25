@@ -1,0 +1,24 @@
+{
+    "symbol": "RUNEUSDT",
+    "tier": "swing_mid",
+    "trained_at": "2026-06-24T17:57:25.921924",
+    "total_samples": 111419,
+    "positive_labels": 5038,
+    "selected_features": [
+        "Hour",
+        "ATR_pct",
+        "DayOfWeek",
+        "ADXR_14_2",
+        "Supertrend_ratio",
+        "BTC_Corr_50",
+        "ADX_14",
+        "Price_Position_50",
+        "SMA50_ratio",
+        "EMA200_ratio",
+        "Vol_Ratio"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 5.0,
+    "max_hold_bars": 96,
+    "atr_sl_multiplier": 2.5
+}

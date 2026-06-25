@@ -1,0 +1,27 @@
+{
+    "symbol": "LINKUSDT",
+    "tier": "swing_mid",
+    "trained_at": "2026-06-24T17:46:33.319053",
+    "total_samples": 111414,
+    "positive_labels": 4937,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "EMA200_ratio",
+        "VWAP_ratio",
+        "STDEV_pct",
+        "EMA100_ratio",
+        "CCI",
+        "RSI14",
+        "MFI",
+        "BBB_20_2.0_2.0",
+        "Vol_Ratio",
+        "EMA50_ratio",
+        "DMN_14",
+        "BTC_Corr_50"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 5.0,
+    "max_hold_bars": 96,
+    "atr_sl_multiplier": 2.5
+}

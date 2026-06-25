@@ -1,0 +1,31 @@
+{
+    "symbol": "DOTUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T17:19:51.365010",
+    "total_samples": 111222,
+    "positive_labels": 6325,
+    "selected_features": [
+        "ATR_pct",
+        "EMA100_ratio",
+        "SMA50_ratio",
+        "EMA200_ratio",
+        "EMA50_ratio",
+        "Hour",
+        "Price_Position_50",
+        "DMN_14",
+        "MACD_12_26_9_ratio",
+        "MACDs_12_26_9_ratio",
+        "BTC_Corr_50",
+        "CCI",
+        "CMF",
+        "ADXR_14_2",
+        "DMP_14",
+        "Spread_KC_BB",
+        "SMA20_ratio",
+        "STDEV_pct"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

@@ -1,0 +1,30 @@
+{
+    "symbol": "SUSHIUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T18:07:37.736299",
+    "total_samples": 111469,
+    "positive_labels": 17279,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "Hour",
+        "DayOfWeek",
+        "EMA100_ratio",
+        "SMA50_ratio",
+        "CMF",
+        "SMA20_ratio",
+        "DMN_14",
+        "BTC_Corr_50",
+        "Spread_KC_BB",
+        "BBP_20_2.0_2.0",
+        "BTC_Ret_5",
+        "DMP_14",
+        "RSI21",
+        "EMA50_ratio",
+        "STDEV_pct"
+    ],
+    "optimal_threshold": 0.5570507049560547,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

@@ -1,0 +1,26 @@
+{
+    "symbol": "EGLDUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T17:23:18.190203",
+    "total_samples": 111235,
+    "positive_labels": 6738,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "STDEV_pct",
+        "EMA100_ratio",
+        "BBB_20_2.0_2.0",
+        "MACDs_12_26_9_ratio",
+        "SMA50_ratio",
+        "SMA20_ratio",
+        "CMF",
+        "DayOfWeek",
+        "RSI21",
+        "STOCHd_14_3_3",
+        "DMN_14"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

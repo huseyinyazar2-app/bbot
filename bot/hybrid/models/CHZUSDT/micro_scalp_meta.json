@@ -1,0 +1,32 @@
+{
+    "symbol": "CHZUSDT",
+    "tier": "micro_scalp",
+    "trained_at": "2026-06-24T17:05:35.301783",
+    "total_samples": 111507,
+    "positive_labels": 17956,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "EMA100_ratio",
+        "Hour",
+        "MACDs_12_26_9_ratio",
+        "DayOfWeek",
+        "Price_Position_50",
+        "Vol_Ratio",
+        "BTC_Ret_5",
+        "SMA50_ratio",
+        "BTC_Corr_50",
+        "OBV_slope_5",
+        "ROC_15",
+        "VWAP_ratio",
+        "CVD_Slope_5",
+        "MFI",
+        "BBB_20_2.0_2.0",
+        "STDEV_pct",
+        "MACDh_12_26_9_ratio"
+    ],
+    "optimal_threshold": 0.8389391303062439,
+    "target_pct": 1.0,
+    "max_hold_bars": 9,
+    "atr_sl_multiplier": 1.25
+}

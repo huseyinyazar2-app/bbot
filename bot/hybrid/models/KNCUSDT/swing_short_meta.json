@@ -1,0 +1,33 @@
+{
+    "symbol": "KNCUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T17:43:18.049439",
+    "total_samples": 111471,
+    "positive_labels": 10157,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "VWAP_ratio",
+        "DayOfWeek",
+        "EMA200_ratio",
+        "CCI",
+        "BBB_20_2.0_2.0",
+        "Vol_Ratio",
+        "EMA100_ratio",
+        "STDEV_pct",
+        "DMN_14",
+        "Supertrend_ratio",
+        "MFI",
+        "RSI7",
+        "RSI14",
+        "CVD_Slope_5",
+        "CMF",
+        "Spread_KC_BB",
+        "Price_Position_50",
+        "STOCHd_14_3_3"
+    ],
+    "optimal_threshold": 0.7475217580795288,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

@@ -1,0 +1,33 @@
+{
+    "symbol": "INJUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T17:37:55.660783",
+    "total_samples": 111473,
+    "positive_labels": 21856,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "EMA200_ratio",
+        "DayOfWeek",
+        "EMA100_ratio",
+        "VWAP_ratio",
+        "Supertrend_ratio",
+        "ADXR_14_2",
+        "Price_Position_50",
+        "BBP_20_2.0_2.0",
+        "MFI",
+        "CMF",
+        "CCI",
+        "DMN_14",
+        "MACD_12_26_9_ratio",
+        "MACDh_12_26_9_ratio",
+        "BBB_20_2.0_2.0",
+        "ROC_5",
+        "KC_position",
+        "Vol_Ratio"
+    ],
+    "optimal_threshold": 0.6241782903671265,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

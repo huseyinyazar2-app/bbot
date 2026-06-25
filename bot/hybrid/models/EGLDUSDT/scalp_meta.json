@@ -1,0 +1,33 @@
+{
+    "symbol": "EGLDUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T17:21:29.369283",
+    "total_samples": 111499,
+    "positive_labels": 24377,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "Hour",
+        "ADXR_14_2",
+        "DayOfWeek",
+        "BBB_20_2.0_2.0",
+        "Price_Position_50",
+        "ADX_14",
+        "BTC_Corr_50",
+        "BTC_Ret_5",
+        "MFI",
+        "WILLR",
+        "Spread_KC_BB",
+        "CMF",
+        "MACDs_12_26_9_ratio",
+        "Supertrend_ratio",
+        "RSI14",
+        "KC_position",
+        "STOCHk_14_3_3",
+        "OBV_slope_5"
+    ],
+    "optimal_threshold": 0.7546701431274414,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

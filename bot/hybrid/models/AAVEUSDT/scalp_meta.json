@@ -1,0 +1,31 @@
+{
+    "symbol": "AAVEUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T16:36:07.289240",
+    "total_samples": 111489,
+    "positive_labels": 26363,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "EMA200_ratio",
+        "DayOfWeek",
+        "VWAP_ratio",
+        "Vol_Ratio",
+        "BTC_Ret_5",
+        "DMN_14",
+        "MACD_12_26_9_ratio",
+        "SMA20_ratio",
+        "CVD_Slope_5",
+        "STDEV_pct",
+        "SMA50_ratio",
+        "RSI21",
+        "ADX_14",
+        "BTC_Corr_50",
+        "CCI",
+        "MACDs_12_26_9_ratio"
+    ],
+    "optimal_threshold": 0.7125058770179749,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

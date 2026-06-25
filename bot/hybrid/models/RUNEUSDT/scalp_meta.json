@@ -1,0 +1,28 @@
+{
+    "symbol": "RUNEUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T17:57:05.469365",
+    "total_samples": 111491,
+    "positive_labels": 21917,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "DayOfWeek",
+        "EMA200_ratio",
+        "BBB_20_2.0_2.0",
+        "DMN_14",
+        "RSI14",
+        "DMP_14",
+        "ADXR_14_2",
+        "ROC_15",
+        "STDEV_pct",
+        "MFI",
+        "BTC_Ret_5",
+        "Vol_Ratio",
+        "BBP_20_2.0_2.0"
+    ],
+    "optimal_threshold": 0.6804869174957275,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

@@ -1,0 +1,30 @@
+{
+    "symbol": "ARUSDT",
+    "tier": "swing_mid",
+    "trained_at": "2026-06-24T16:43:44.649593",
+    "total_samples": 111427,
+    "positive_labels": 11742,
+    "selected_features": [
+        "ATR_pct",
+        "VWAP_ratio",
+        "EMA200_ratio",
+        "Price_Position_50",
+        "Hour",
+        "CMF",
+        "EMA100_ratio",
+        "WILLR",
+        "CVD_Slope_5",
+        "MFI",
+        "STOCHh_14_3_3",
+        "ROC_5",
+        "MACDh_12_26_9_ratio",
+        "RSI7",
+        "Volume_Slope_5",
+        "Supertrend_ratio",
+        "ROC_15"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 5.0,
+    "max_hold_bars": 96,
+    "atr_sl_multiplier": 2.5
+}

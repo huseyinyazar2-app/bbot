@@ -1,0 +1,33 @@
+{
+    "symbol": "BCHUSDT",
+    "tier": "swing_mid",
+    "trained_at": "2026-06-24T16:59:44.611795",
+    "total_samples": 111415,
+    "positive_labels": 4114,
+    "selected_features": [
+        "ATR_pct",
+        "DayOfWeek",
+        "VWAP_ratio",
+        "STDEV_pct",
+        "BTC_Corr_50",
+        "Hour",
+        "Supertrend_ratio",
+        "EMA100_ratio",
+        "DMP_14",
+        "CVD_Slope_5",
+        "CCI",
+        "Vol_Ratio",
+        "BBB_20_2.0_2.0",
+        "Price_Position_50",
+        "Spread_KC_BB",
+        "MACDh_12_26_9_ratio",
+        "CMF",
+        "KC_position",
+        "MFI",
+        "BBP_20_2.0_2.0"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 5.0,
+    "max_hold_bars": 96,
+    "atr_sl_multiplier": 2.5
+}

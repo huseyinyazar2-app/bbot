@@ -1,0 +1,33 @@
+{
+    "symbol": "CTSIUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T17:13:54.021946",
+    "total_samples": 111472,
+    "positive_labels": 19562,
+    "selected_features": [
+        "ATR_pct",
+        "DayOfWeek",
+        "BBB_20_2.0_2.0",
+        "Hour",
+        "EMA200_ratio",
+        "Vol_Ratio",
+        "DMP_14",
+        "DMN_14",
+        "EMA100_ratio",
+        "MACDs_12_26_9_ratio",
+        "VWAP_ratio",
+        "STDEV_pct",
+        "Spread_KC_BB",
+        "ADXR_14_2",
+        "MFI",
+        "Price_Position_50",
+        "ADX_14",
+        "SMA50_ratio",
+        "CCI",
+        "STOCHk_14_3_3"
+    ],
+    "optimal_threshold": 0.5739765763282776,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

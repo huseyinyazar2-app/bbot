@@ -1,0 +1,28 @@
+{
+    "symbol": "BANDUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T16:54:00.388495",
+    "total_samples": 111496,
+    "positive_labels": 27192,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "BTC_Corr_50",
+        "ADXR_14_2",
+        "VWAP_ratio",
+        "MFI",
+        "BTC_Ret_5",
+        "Vol_Ratio",
+        "EMA200_ratio",
+        "DayOfWeek",
+        "CCI",
+        "Supertrend_ratio",
+        "RSI21",
+        "EMA21_ratio",
+        "ADX_14"
+    ],
+    "optimal_threshold": 0.5588759183883667,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

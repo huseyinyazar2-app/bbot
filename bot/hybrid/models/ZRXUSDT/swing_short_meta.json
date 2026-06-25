@@ -1,0 +1,24 @@
+{
+    "symbol": "ZRXUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T18:16:24.851436",
+    "total_samples": 111470,
+    "positive_labels": 12842,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "BTC_Corr_50",
+        "DayOfWeek",
+        "DMP_14",
+        "ADX_14",
+        "BTC_Ret_5",
+        "CVD_Slope_5",
+        "ADXR_14_2",
+        "CCI",
+        "EMA9_ratio"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

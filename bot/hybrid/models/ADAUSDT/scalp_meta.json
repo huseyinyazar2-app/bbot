@@ -1,0 +1,24 @@
+{
+    "symbol": "ADAUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T16:38:47.749126",
+    "total_samples": 111486,
+    "positive_labels": 22692,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "DayOfWeek",
+        "EMA200_ratio",
+        "DMN_14",
+        "EMA100_ratio",
+        "Vol_Ratio",
+        "DMP_14",
+        "BBB_20_2.0_2.0",
+        "MACD_12_26_9_ratio",
+        "BTC_Ret_5"
+    ],
+    "optimal_threshold": 0.6778995394706726,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

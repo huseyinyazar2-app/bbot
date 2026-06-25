@@ -1,0 +1,28 @@
+{
+    "symbol": "BTCUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T17:03:06.680968",
+    "total_samples": 111485,
+    "positive_labels": 6647,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "EMA200_ratio",
+        "VWAP_ratio",
+        "DayOfWeek",
+        "ADXR_14_2",
+        "BBB_20_2.0_2.0",
+        "Vol_Ratio",
+        "CMF",
+        "ADX_14",
+        "EMA50_ratio",
+        "EMA100_ratio",
+        "CCI",
+        "STOCHk_14_3_3",
+        "Spread_KC_BB"
+    ],
+    "optimal_threshold": 0.7644720077514648,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

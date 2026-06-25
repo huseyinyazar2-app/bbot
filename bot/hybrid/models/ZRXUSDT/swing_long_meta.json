@@ -1,0 +1,23 @@
+{
+    "symbol": "ZRXUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T18:17:04.829223",
+    "total_samples": 111230,
+    "positive_labels": 6317,
+    "selected_features": [
+        "ATR_pct",
+        "DayOfWeek",
+        "Hour",
+        "MACDs_12_26_9_ratio",
+        "CMF",
+        "VWAP_ratio",
+        "CCI",
+        "ADXR_14_2",
+        "Supertrend_ratio",
+        "DMP_14"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

@@ -1,0 +1,30 @@
+{
+    "symbol": "YFIUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T18:14:30.253808",
+    "total_samples": 111469,
+    "positive_labels": 6998,
+    "selected_features": [
+        "ATR_pct",
+        "DayOfWeek",
+        "EMA200_ratio",
+        "Supertrend_ratio",
+        "Hour",
+        "MACDs_12_26_9_ratio",
+        "ADXR_14_2",
+        "BTC_Ret_5",
+        "MFI",
+        "ROC_5",
+        "EMA100_ratio",
+        "Vol_Ratio",
+        "BBB_20_2.0_2.0",
+        "WILLR",
+        "DMN_14",
+        "CMF",
+        "ADX_14"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

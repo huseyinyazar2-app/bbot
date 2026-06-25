@@ -1,0 +1,24 @@
+{
+    "symbol": "KAVAUSDT",
+    "tier": "swing_mid",
+    "trained_at": "2026-06-24T17:41:10.296719",
+    "total_samples": 111425,
+    "positive_labels": 5010,
+    "selected_features": [
+        "ATR_pct",
+        "EMA100_ratio",
+        "DayOfWeek",
+        "BTC_Corr_50",
+        "Price_Position_50",
+        "CMF",
+        "DMN_14",
+        "CVD_Slope_5",
+        "CCI",
+        "VWAP_ratio",
+        "STOCHk_14_3_3"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 5.0,
+    "max_hold_bars": 96,
+    "atr_sl_multiplier": 2.5
+}

@@ -1,0 +1,33 @@
+{
+    "symbol": "BNBUSDT",
+    "tier": "micro_scalp",
+    "trained_at": "2026-06-24T17:00:38.226556",
+    "total_samples": 111501,
+    "positive_labels": 5030,
+    "selected_features": [
+        "ATR_pct",
+        "CCI",
+        "Supertrend_ratio",
+        "Hour",
+        "SMA50_ratio",
+        "ROC_5",
+        "BTC_Corr_50",
+        "STDEV_pct",
+        "MACD_12_26_9_ratio",
+        "Vol_Ratio",
+        "BBB_20_2.0_2.0",
+        "Spread_KC_BB",
+        "ADXR_14_2",
+        "DayOfWeek",
+        "CMF",
+        "MFI",
+        "DMN_14",
+        "EMA21_ratio",
+        "ROC_15",
+        "OBV_slope_5"
+    ],
+    "optimal_threshold": 0.5815550684928894,
+    "target_pct": 1.0,
+    "max_hold_bars": 9,
+    "atr_sl_multiplier": 1.25
+}

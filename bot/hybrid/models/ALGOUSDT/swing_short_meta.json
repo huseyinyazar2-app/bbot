@@ -1,0 +1,28 @@
+{
+    "symbol": "ALGOUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T16:41:14.068699",
+    "total_samples": 111465,
+    "positive_labels": 15833,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "EMA200_ratio",
+        "MFI",
+        "SMA50_ratio",
+        "MACD_12_26_9_ratio",
+        "Price_Position_50",
+        "CCI",
+        "Vol_Ratio",
+        "STDEV_pct",
+        "Supertrend_ratio",
+        "ROC_15",
+        "BBB_20_2.0_2.0",
+        "ROC_5",
+        "CMF"
+    ],
+    "optimal_threshold": 0.795547366142273,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

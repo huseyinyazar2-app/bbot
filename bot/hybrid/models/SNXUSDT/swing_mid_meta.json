@@ -1,0 +1,29 @@
+{
+    "symbol": "SNXUSDT",
+    "tier": "swing_mid",
+    "trained_at": "2026-06-24T18:01:10.322905",
+    "total_samples": 111418,
+    "positive_labels": 11497,
+    "selected_features": [
+        "ATR_pct",
+        "BTC_Corr_50",
+        "Hour",
+        "BTC_Ret_5",
+        "CCI",
+        "Vol_Ratio",
+        "Price_Position_50",
+        "MFI",
+        "Supertrend_ratio",
+        "BBB_20_2.0_2.0",
+        "DMP_14",
+        "MACDs_12_26_9_ratio",
+        "CVD_Slope_5",
+        "STDEV_pct",
+        "MACD_12_26_9_ratio",
+        "EMA50_ratio"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 5.0,
+    "max_hold_bars": 96,
+    "atr_sl_multiplier": 2.5
+}

@@ -1,0 +1,30 @@
+{
+    "symbol": "INJUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T17:37:18.519222",
+    "total_samples": 111497,
+    "positive_labels": 34833,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "VWAP_ratio",
+        "DayOfWeek",
+        "EMA200_ratio",
+        "EMA100_ratio",
+        "BTC_Corr_50",
+        "MACDs_12_26_9_ratio",
+        "MACD_12_26_9_ratio",
+        "ADX_14",
+        "DMP_14",
+        "CMF",
+        "CCI",
+        "Vol_Ratio",
+        "MACDh_12_26_9_ratio",
+        "Supertrend_ratio",
+        "Spread_KC_BB"
+    ],
+    "optimal_threshold": 0.7221377491950989,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

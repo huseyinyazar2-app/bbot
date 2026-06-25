@@ -1,0 +1,33 @@
+{
+    "symbol": "YFIUSDT",
+    "tier": "micro_scalp",
+    "trained_at": "2026-06-24T18:13:48.410051",
+    "total_samples": 111508,
+    "positive_labels": 8797,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "BBB_20_2.0_2.0",
+        "MFI",
+        "Hour",
+        "DMN_14",
+        "CCI",
+        "CMF",
+        "DayOfWeek",
+        "MACDh_12_26_9_ratio",
+        "VWAP_ratio",
+        "Supertrend_ratio",
+        "STOCHk_14_3_3",
+        "SMA50_ratio",
+        "EMA9_ratio",
+        "DMP_14",
+        "ADXR_14_2",
+        "Vol_Ratio",
+        "RSI21",
+        "EMA100_ratio"
+    ],
+    "optimal_threshold": 0.7174444794654846,
+    "target_pct": 1.0,
+    "max_hold_bars": 9,
+    "atr_sl_multiplier": 1.25
+}

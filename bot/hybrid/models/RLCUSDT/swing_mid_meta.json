@@ -1,0 +1,23 @@
+{
+    "symbol": "RLCUSDT",
+    "tier": "swing_mid",
+    "trained_at": "2026-06-24T17:55:58.071849",
+    "total_samples": 111424,
+    "positive_labels": 8794,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "CVD_Slope_5",
+        "CCI",
+        "VWAP_ratio",
+        "BTC_Corr_50",
+        "MACDh_12_26_9_ratio",
+        "STDEV_pct",
+        "BBB_20_2.0_2.0",
+        "OBV_slope_5"
+    ],
+    "optimal_threshold": 0.8213221430778503,
+    "target_pct": 5.0,
+    "max_hold_bars": 96,
+    "atr_sl_multiplier": 2.5
+}

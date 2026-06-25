@@ -1,0 +1,30 @@
+{
+    "symbol": "AVAXUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T16:49:48.487142",
+    "total_samples": 111462,
+    "positive_labels": 12017,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "DayOfWeek",
+        "EMA200_ratio",
+        "BBB_20_2.0_2.0",
+        "STDEV_pct",
+        "SMA50_ratio",
+        "DMN_14",
+        "CMF",
+        "EMA100_ratio",
+        "CCI",
+        "SMA20_ratio",
+        "BTC_Ret_5",
+        "Vol_Ratio",
+        "MACD_12_26_9_ratio",
+        "CVD_Slope_5",
+        "ADXR_14_2"
+    ],
+    "optimal_threshold": 0.5252164006233215,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

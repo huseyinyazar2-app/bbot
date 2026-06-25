@@ -1,0 +1,26 @@
+{
+    "symbol": "GALAUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T17:35:03.451476",
+    "total_samples": 111491,
+    "positive_labels": 31470,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "DayOfWeek",
+        "Vol_Ratio",
+        "CMF",
+        "BBB_20_2.0_2.0",
+        "EMA200_ratio",
+        "ADXR_14_2",
+        "STOCHd_14_3_3",
+        "WILLR",
+        "Volume_Slope_5",
+        "MACD_12_26_9_ratio",
+        "STDEV_pct"
+    ],
+    "optimal_threshold": 0.6956542134284973,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

@@ -1,0 +1,33 @@
+{
+    "symbol": "DOTUSDT",
+    "tier": "micro_scalp",
+    "trained_at": "2026-06-24T17:17:20.773841",
+    "total_samples": 111501,
+    "positive_labels": 14442,
+    "selected_features": [
+        "ATR_pct",
+        "BBB_20_2.0_2.0",
+        "EMA200_ratio",
+        "VWAP_ratio",
+        "Hour",
+        "BTC_Corr_50",
+        "Vol_Ratio",
+        "DMP_14",
+        "ADXR_14_2",
+        "CCI",
+        "DMN_14",
+        "Price_Position_50",
+        "OBV_slope_5",
+        "DayOfWeek",
+        "STDEV_pct",
+        "Spread_KC_BB",
+        "BTC_Ret_5",
+        "Supertrend_ratio",
+        "ROC_5",
+        "RSI21"
+    ],
+    "optimal_threshold": 0.5609604716300964,
+    "target_pct": 1.0,
+    "max_hold_bars": 9,
+    "atr_sl_multiplier": 1.25
+}

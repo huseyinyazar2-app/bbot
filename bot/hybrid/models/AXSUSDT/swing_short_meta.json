@@ -1,0 +1,29 @@
+{
+    "symbol": "AXSUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T16:51:57.388871",
+    "total_samples": 111467,
+    "positive_labels": 18287,
+    "selected_features": [
+        "ATR_pct",
+        "BTC_Corr_50",
+        "EMA100_ratio",
+        "BBB_20_2.0_2.0",
+        "Price_Position_50",
+        "STOCHk_14_3_3",
+        "DMN_14",
+        "MACDs_12_26_9_ratio",
+        "MACD_12_26_9_ratio",
+        "Supertrend_ratio",
+        "BTC_Ret_5",
+        "CVD_Slope_5",
+        "STDEV_pct",
+        "ROC_5",
+        "ROC_15",
+        "CCI"
+    ],
+    "optimal_threshold": 0.7059749960899353,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

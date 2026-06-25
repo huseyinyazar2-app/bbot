@@ -1,0 +1,33 @@
+{
+    "symbol": "LTCUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T17:49:12.369889",
+    "total_samples": 111463,
+    "positive_labels": 7125,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "DayOfWeek",
+        "Hour",
+        "EMA100_ratio",
+        "Price_Position_50",
+        "STDEV_pct",
+        "CMF",
+        "Supertrend_ratio",
+        "BTC_Corr_50",
+        "SMA50_ratio",
+        "DMP_14",
+        "CCI",
+        "DMN_14",
+        "RSI21",
+        "Vol_Ratio",
+        "EMA50_ratio",
+        "MFI",
+        "BBB_20_2.0_2.0",
+        "MACD_12_26_9_ratio"
+    ],
+    "optimal_threshold": 0.7679551839828491,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

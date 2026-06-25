@@ -1,0 +1,33 @@
+{
+    "symbol": "CRVUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T17:10:43.992611",
+    "total_samples": 111492,
+    "positive_labels": 36235,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "STDEV_pct",
+        "VWAP_ratio",
+        "BTC_Ret_5",
+        "DayOfWeek",
+        "WILLR",
+        "BBB_20_2.0_2.0",
+        "CCI",
+        "DMP_14",
+        "Spread_KC_BB",
+        "Vol_Ratio",
+        "RSI14",
+        "BBP_20_2.0_2.0",
+        "EMA9_ratio",
+        "RSI21",
+        "RSI7",
+        "STOCHh_14_3_3",
+        "EMA21_ratio",
+        "SMA20_ratio"
+    ],
+    "optimal_threshold": 0.6447509527206421,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

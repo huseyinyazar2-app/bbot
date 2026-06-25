@@ -1,0 +1,33 @@
+{
+    "symbol": "ATOMUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T16:48:03.712874",
+    "total_samples": 111224,
+    "positive_labels": 4054,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "STDEV_pct",
+        "DayOfWeek",
+        "BTC_Corr_50",
+        "Hour",
+        "DMN_14",
+        "ADX_14",
+        "CCI",
+        "MACD_12_26_9_ratio",
+        "DMP_14",
+        "Vol_Ratio",
+        "STOCHk_14_3_3",
+        "BTC_Ret_5",
+        "STOCHd_14_3_3",
+        "RSI14",
+        "ROC_15",
+        "EMA50_ratio",
+        "CMF",
+        "Volume_Slope_5"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

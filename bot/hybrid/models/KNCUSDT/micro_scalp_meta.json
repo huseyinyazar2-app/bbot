@@ -1,0 +1,33 @@
+{
+    "symbol": "KNCUSDT",
+    "tier": "micro_scalp",
+    "trained_at": "2026-06-24T17:41:56.604658",
+    "total_samples": 111510,
+    "positive_labels": 12332,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "CCI",
+        "Hour",
+        "SMA50_ratio",
+        "Vol_Ratio",
+        "BBB_20_2.0_2.0",
+        "STDEV_pct",
+        "DMP_14",
+        "BTC_Corr_50",
+        "DayOfWeek",
+        "EMA50_ratio",
+        "EMA100_ratio",
+        "Supertrend_ratio",
+        "EMA9_ratio",
+        "ADXR_14_2",
+        "MACDh_12_26_9_ratio",
+        "ADX_14",
+        "CMF",
+        "ROC_5"
+    ],
+    "optimal_threshold": 0.5968850255012512,
+    "target_pct": 1.0,
+    "max_hold_bars": 9,
+    "atr_sl_multiplier": 1.25
+}

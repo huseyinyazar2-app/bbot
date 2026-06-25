@@ -1,0 +1,31 @@
+{
+    "symbol": "STORJUSDT",
+    "tier": "scalp",
+    "trained_at": "2026-06-24T18:03:45.209361",
+    "total_samples": 111494,
+    "positive_labels": 23848,
+    "selected_features": [
+        "ATR_pct",
+        "ADXR_14_2",
+        "EMA100_ratio",
+        "EMA200_ratio",
+        "DayOfWeek",
+        "Vol_Ratio",
+        "BTC_Ret_5",
+        "CMF",
+        "CCI",
+        "STDEV_pct",
+        "MACDs_12_26_9_ratio",
+        "Supertrend_ratio",
+        "EMA50_ratio",
+        "Hour",
+        "SMA20_ratio",
+        "MACD_12_26_9_ratio",
+        "SMA50_ratio",
+        "BBB_20_2.0_2.0"
+    ],
+    "optimal_threshold": 0.553633451461792,
+    "target_pct": 1.25,
+    "max_hold_bars": 24,
+    "atr_sl_multiplier": 1.5
+}

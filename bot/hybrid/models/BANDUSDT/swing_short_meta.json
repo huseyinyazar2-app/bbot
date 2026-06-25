@@ -1,0 +1,31 @@
+{
+    "symbol": "BANDUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T16:54:31.143987",
+    "total_samples": 111472,
+    "positive_labels": 15103,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "EMA200_ratio",
+        "EMA100_ratio",
+        "SMA50_ratio",
+        "DayOfWeek",
+        "Price_Position_50",
+        "MACDs_12_26_9_ratio",
+        "ADXR_14_2",
+        "BBB_20_2.0_2.0",
+        "BTC_Corr_50",
+        "DMN_14",
+        "Spread_KC_BB",
+        "STDEV_pct",
+        "DMP_14",
+        "MACD_12_26_9_ratio",
+        "RSI21",
+        "CCI"
+    ],
+    "optimal_threshold": 0.686767041683197,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

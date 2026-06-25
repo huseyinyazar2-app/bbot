@@ -1,0 +1,33 @@
+{
+    "symbol": "GALAUSDT",
+    "tier": "swing_mid",
+    "trained_at": "2026-06-24T17:36:07.015810",
+    "total_samples": 111419,
+    "positive_labels": 6903,
+    "selected_features": [
+        "Hour",
+        "ATR_pct",
+        "EMA200_ratio",
+        "EMA100_ratio",
+        "BTC_Corr_50",
+        "ADX_14",
+        "CCI",
+        "ADXR_14_2",
+        "DayOfWeek",
+        "DMP_14",
+        "Price_Position_50",
+        "Supertrend_ratio",
+        "CMF",
+        "BTC_Ret_5",
+        "Vol_Ratio",
+        "BBB_20_2.0_2.0",
+        "RSI21",
+        "MACDs_12_26_9_ratio",
+        "MFI",
+        "DMN_14"
+    ],
+    "optimal_threshold": 0.5994057059288025,
+    "target_pct": 5.0,
+    "max_hold_bars": 96,
+    "atr_sl_multiplier": 2.5
+}

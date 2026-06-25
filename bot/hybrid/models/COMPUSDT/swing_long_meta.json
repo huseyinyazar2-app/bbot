@@ -1,0 +1,33 @@
+{
+    "symbol": "COMPUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T17:09:52.736712",
+    "total_samples": 111229,
+    "positive_labels": 10008,
+    "selected_features": [
+        "ATR_pct",
+        "BTC_Corr_50",
+        "VWAP_ratio",
+        "DayOfWeek",
+        "Supertrend_ratio",
+        "EMA200_ratio",
+        "EMA100_ratio",
+        "Hour",
+        "Price_Position_50",
+        "MACDs_12_26_9_ratio",
+        "CVD_Slope_5",
+        "CMF",
+        "EMA50_ratio",
+        "Vol_Ratio",
+        "DMN_14",
+        "ROC_5",
+        "BBB_20_2.0_2.0",
+        "SMA50_ratio",
+        "RSI7",
+        "OBV_slope_5"
+    ],
+    "optimal_threshold": 0.6362267732620239,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

@@ -1,0 +1,29 @@
+{
+    "symbol": "CTSIUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T17:14:52.089721",
+    "total_samples": 111232,
+    "positive_labels": 13385,
+    "selected_features": [
+        "ATR_pct",
+        "DayOfWeek",
+        "EMA100_ratio",
+        "DMP_14",
+        "Hour",
+        "EMA21_ratio",
+        "MACDs_12_26_9_ratio",
+        "Price_Position_50",
+        "SMA50_ratio",
+        "MACD_12_26_9_ratio",
+        "DMN_14",
+        "Vol_Ratio",
+        "STDEV_pct",
+        "MFI",
+        "ADXR_14_2",
+        "ROC_15"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

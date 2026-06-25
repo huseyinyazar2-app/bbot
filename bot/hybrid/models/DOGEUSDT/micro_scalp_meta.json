@@ -1,0 +1,33 @@
+{
+    "symbol": "DOGEUSDT",
+    "tier": "micro_scalp",
+    "trained_at": "2026-06-24T17:15:17.586248",
+    "total_samples": 111501,
+    "positive_labels": 13183,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "EMA200_ratio",
+        "Vol_Ratio",
+        "VWAP_ratio",
+        "Price_Position_50",
+        "MACDh_12_26_9_ratio",
+        "WILLR",
+        "BTC_Corr_50",
+        "BBB_20_2.0_2.0",
+        "STDEV_pct",
+        "EMA100_ratio",
+        "CMF",
+        "Supertrend_ratio",
+        "SMA50_ratio",
+        "DayOfWeek",
+        "MACDs_12_26_9_ratio",
+        "ROC_5",
+        "OBV_slope_5",
+        "BBP_20_2.0_2.0"
+    ],
+    "optimal_threshold": 0.7530982494354248,
+    "target_pct": 1.0,
+    "max_hold_bars": 9,
+    "atr_sl_multiplier": 1.25
+}

@@ -1,0 +1,26 @@
+{
+    "symbol": "SANDUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T17:59:33.595290",
+    "total_samples": 111226,
+    "positive_labels": 7733,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "CCI",
+        "BTC_Corr_50",
+        "EMA50_ratio",
+        "EMA200_ratio",
+        "EMA100_ratio",
+        "BBB_20_2.0_2.0",
+        "STDEV_pct",
+        "BTC_Ret_5",
+        "EMA9_ratio",
+        "SMA50_ratio",
+        "STOCHd_14_3_3"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

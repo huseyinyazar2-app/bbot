@@ -1,0 +1,33 @@
+{
+    "symbol": "NEARUSDT",
+    "tier": "swing_mid",
+    "trained_at": "2026-06-24T17:54:05.993964",
+    "total_samples": 111417,
+    "positive_labels": 9901,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "DMP_14",
+        "BBB_20_2.0_2.0",
+        "EMA100_ratio",
+        "ADX_14",
+        "BTC_Corr_50",
+        "CCI",
+        "ADXR_14_2",
+        "Hour",
+        "CMF",
+        "STDEV_pct",
+        "Price_Position_50",
+        "Vol_Ratio",
+        "SMA50_ratio",
+        "MACD_12_26_9_ratio",
+        "BTC_Ret_5",
+        "CVD_Slope_5",
+        "ROC_5",
+        "Spread_KC_BB"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 5.0,
+    "max_hold_bars": 96,
+    "atr_sl_multiplier": 2.5
+}

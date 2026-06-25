@@ -1,0 +1,20 @@
+{
+    "symbol": "DOGEUSDT",
+    "tier": "swing_long",
+    "trained_at": "2026-06-24T17:16:56.153824",
+    "total_samples": 111222,
+    "positive_labels": 7808,
+    "selected_features": [
+        "EMA200_ratio",
+        "DayOfWeek",
+        "Supertrend_ratio",
+        "Hour",
+        "EMA100_ratio",
+        "EMA50_ratio",
+        "CMF"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 8.0,
+    "max_hold_bars": 288,
+    "atr_sl_multiplier": 3.0
+}

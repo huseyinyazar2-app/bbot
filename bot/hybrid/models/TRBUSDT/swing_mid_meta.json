@@ -1,0 +1,27 @@
+{
+    "symbol": "TRBUSDT",
+    "tier": "swing_mid",
+    "trained_at": "2026-06-24T18:09:43.944783",
+    "total_samples": 111426,
+    "positive_labels": 7135,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "EMA100_ratio",
+        "EMA200_ratio",
+        "VWAP_ratio",
+        "STDEV_pct",
+        "DMP_14",
+        "Spread_KC_BB",
+        "EMA50_ratio",
+        "CCI",
+        "SMA50_ratio",
+        "DayOfWeek",
+        "DMN_14",
+        "EMA21_ratio"
+    ],
+    "optimal_threshold": 0.75,
+    "target_pct": 5.0,
+    "max_hold_bars": 96,
+    "atr_sl_multiplier": 2.5
+}

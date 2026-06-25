@@ -1,0 +1,30 @@
+{
+    "symbol": "MANAUSDT",
+    "tier": "swing_short",
+    "trained_at": "2026-06-24T17:51:10.975101",
+    "total_samples": 111466,
+    "positive_labels": 13694,
+    "selected_features": [
+        "ATR_pct",
+        "EMA200_ratio",
+        "Hour",
+        "EMA100_ratio",
+        "DayOfWeek",
+        "RSI21",
+        "BTC_Corr_50",
+        "Supertrend_ratio",
+        "Vol_Ratio",
+        "STOCHd_14_3_3",
+        "CCI",
+        "ADXR_14_2",
+        "CMF",
+        "EMA50_ratio",
+        "ROC_5",
+        "STDEV_pct",
+        "MFI"
+    ],
+    "optimal_threshold": 0.5264142155647278,
+    "target_pct": 2.5,
+    "max_hold_bars": 48,
+    "atr_sl_multiplier": 2.0
+}

@@ -1,0 +1,26 @@
+{
+    "symbol": "BATUSDT",
+    "tier": "swing_mid",
+    "trained_at": "2026-06-24T16:57:11.999458",
+    "total_samples": 111421,
+    "positive_labels": 10840,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "EMA200_ratio",
+        "VWAP_ratio",
+        "MACDs_12_26_9_ratio",
+        "BTC_Corr_50",
+        "Price_Position_50",
+        "Supertrend_ratio",
+        "DMP_14",
+        "DMN_14",
+        "Vol_Ratio",
+        "KC_position",
+        "OBV_slope_5"
+    ],
+    "optimal_threshold": 0.6861749291419983,
+    "target_pct": 5.0,
+    "max_hold_bars": 96,
+    "atr_sl_multiplier": 2.5
+}

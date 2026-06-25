@@ -1,0 +1,33 @@
+{
+    "symbol": "FILUSDT",
+    "tier": "micro_scalp",
+    "trained_at": "2026-06-24T17:31:55.288216",
+    "total_samples": 111514,
+    "positive_labels": 18084,
+    "selected_features": [
+        "ATR_pct",
+        "Hour",
+        "BBB_20_2.0_2.0",
+        "STDEV_pct",
+        "Vol_Ratio",
+        "DMN_14",
+        "SMA20_ratio",
+        "CCI",
+        "BTC_Ret_5",
+        "EMA200_ratio",
+        "DMP_14",
+        "DayOfWeek",
+        "BBP_20_2.0_2.0",
+        "EMA100_ratio",
+        "Supertrend_ratio",
+        "MFI",
+        "ROC_15",
+        "STOCHk_14_3_3",
+        "CMF",
+        "RSI21"
+    ],
+    "optimal_threshold": 0.8722004890441895,
+    "target_pct": 1.0,
+    "max_hold_bars": 9,
+    "atr_sl_multiplier": 1.25
+}
